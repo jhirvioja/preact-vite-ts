@@ -8,4 +8,4 @@ const Main = () => (
   </Router>
 )
 
-render(<Main />, document.getElementById("app") as HTMLElement)
+render(<Main />, document.getElementById('app') as HTMLElement)
