@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "npm run build && vite preview"
+    "prettier": "npx prettier --write .",
+    "build": "PROD=true tsc && vite build",
+    "preview": "tsc && vite build && vite preview"
   },
   "dependencies": {
     "preact": "^10.13.1",
@@ -14,6 +15,8 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
+    "@types/node": "^18.16.3",
+    "prettier": "2.8.8",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
   }
