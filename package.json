@@ -1,16 +1,15 @@
 {
-  "name": "preact-vite-ts",
+  "name": "preact-vite-ts-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prettier": "npx prettier --write .",
     "build": "PROD=true tsc && vite build",
-    "preview": "tsc && vite build && vite preview"
+    "preview": "tsc && vite build && vite preview",
+		"prettify": "npx prettier --write ."
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "preact": "^10.13.1",
     "preact-router": "^4.1.0"
   },
