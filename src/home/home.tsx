@@ -1,6 +1,6 @@
 import preactLogo from '/preact.svg'
 import viteLogo from '/vite.svg'
-import pureCssLogo from '/purecss.svg'
+import pureCssLogo from '/purecss.png'
 import typeScriptLogo from '/typescript.svg'
 import './home.css'
 import { Counter } from '../components/counter'
