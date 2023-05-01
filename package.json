@@ -7,9 +7,11 @@
     "dev": "vite",
     "prettier": "npx prettier --write .",
     "build": "PROD=true tsc && vite build",
-    "preview": "tsc && vite build && vite preview"
+    "preview": "tsc && vite build && vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "preact": "^10.13.1",
     "preact-router": "^4.1.0"
   },
