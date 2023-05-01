@@ -3,14 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-	"homepage": "https://jhirvioja.github.io/preact-vite-ts/",
+  "homepage": "https://jhirvioja.github.io/preact-vite-ts/",
   "scripts": {
     "dev": "vite",
     "prettier": "npx prettier --write .",
     "build": "PROD=true tsc && vite build",
-    "preview": "tsc && vite build && vite preview",
-		"predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "tsc && vite build && vite preview"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
