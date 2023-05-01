@@ -1,4 +1,4 @@
-import preactLogo from './../assets/preact.svg'
+import preactLogo from '/preact.svg'
 import viteLogo from '/vite.svg'
 import pureCssLogo from '/purecss.svg'
 import typeScriptLogo from '/typescript.svg'
